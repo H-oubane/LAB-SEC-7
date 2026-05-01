@@ -439,7 +439,7 @@ Ce lab a permis de :
 - MobSF Documentation : https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - Frida : https://frida.re
 - OWASP MASVS : https://mas.owasp.org/MASVS/
-- - OWASP MASTG : https://mas.owasp.org/MASTG/
+- OWASP MASTG : https://mas.owasp.org/MASTG/
 
 
 ## Auteur
