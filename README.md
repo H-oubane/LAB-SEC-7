@@ -324,23 +324,7 @@ Vulnerabilite identifiee : les identifiants utilisateur sont stockes en clair da
 
 Classification : OWASP MASVS-STORAGE-1 / Insecure Data Storage
 
-Lecture propre de la base divanotes.db :
-
-```bash
-adb -s 192.168.56.104:5555 shell "run-as jakhar.aseem.diva sqlite3 /data/data/jakhar.aseem.diva/databases/divanotes.db 'SELECT * FROM notes;'"
-```
-
-Resultat :
-
-```
-1|office|10 Meetings. 5 Calls. Lunch with CEO
-2|home|Buy toys for baby, Order dinner
-3|holiday|Either Goa or Amsterdam
-4|Expense|Spent too much on home theater
-5|Exercise|Alternate days running
-```
-
-Les notes personnelles sont egalement stockees en clair dans la base SQLite.
+-Les notes personnelles sont egalement stockees en clair dans la base SQLite.
 
 ---
 
