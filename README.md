@@ -1,4 +1,4 @@
-# Lab - Analyse dynamique Android avec MobSF
+# Lab 7- Analyse dynamique Android avec MobSF
 
 ## Objectif
 
@@ -87,7 +87,7 @@ Acces a l'interface depuis Firefox dans Mobexler :
 http://127.0.0.1:8000
 ```
 
----
+
 <img width="1600" height="764" alt="image" src="https://github.com/user-attachments/assets/54d34245-6bf3-4ca7-b0d9-0bc13d25cdc4" />
 
 ## Etape 3 - Compilation et installation de DIVA
@@ -110,12 +110,18 @@ BUILD SUCCESSFUL in 2m 10s
 
 <img width="1407" height="542" alt="image" src="https://github.com/user-attachments/assets/b53f2394-8f23-4582-aba9-c85481e717fe" />
 
+---
+
+
 Copie et renommage de l'APK :
 
 ```bash
 cp ./app/build/outputs/apk/debug/app-debug.apk ~/DivaApplication.apk
 ```
 <img width="1437" height="310" alt="image" src="https://github.com/user-attachments/assets/94a5b1d3-61e3-45ea-a304-ad82d20ab6be" />
+
+---
+
 
 Installation sur l'emulateur :
 
@@ -150,8 +156,11 @@ Resultat :
 package:jakhar.aseem.diva
 ```
 
----
 <img width="976" height="192" alt="image" src="https://github.com/user-attachments/assets/33ae39ea-3f4f-42d1-9ea3-681401e35c88" />
+
+
+---
+
 
 ## Etape 4 - Analyse statique avec MobSF
 
@@ -274,7 +283,8 @@ Saisir les donnees suivantes :
 ```
 User name : testuser
 Password  : supersecret123
-``
+```
+
 <img width="513" height="1017" alt="image" src="https://github.com/user-attachments/assets/9e47b299-a33b-4744-9d0b-1450329378b0" />
 
 ---
@@ -445,7 +455,8 @@ Ce lab a permis de :
 - MobSF Documentation : https://github.com/MobSF/Mobile-Security-Framework-MobSF
 - Frida : https://frida.re
 - OWASP MASVS : https://mas.owasp.org/MASVS/
+- - OWASP MASTG : https://mas.owasp.org/MASTG/
+
 
 ## Auteur
 **H-oubane**
-- OWASP MASTG : https://mas.owasp.org/MASTG/
